@@ -24,3 +24,19 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.heading-bold{
+  @apply text-xl font-extrabold leading-tight;
+}
+
+.dashboard-grid{
+  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6;
+}
+
+.dashboard-card{
+  @apply p-4 rounded shadow-lg;
+}
+
+.heading-small{
+  @apply text-base font-extrabold;
+}
